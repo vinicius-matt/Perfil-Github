@@ -78,11 +78,20 @@ body {
   justify-content: space-between;
   padding: 0;
   max-width: 400px;
+  flex-wrap: wrap;
 }
 
 .user-info ul li {
   display: flex;
   align-items: center;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+  .user-info ul li {
+    width: 100%;
+  }
 }
 
 .user-info ul li strong {
