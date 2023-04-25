@@ -101,37 +101,13 @@ body {
   display: inline-block;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 500px) {
   .card {
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
-  }
-
-  .avatar {
-    height: 120px;
-    width: 120px;
-    border-width: 8px;
-  }
-
-  .user-info {
-    margin-left: 0;
-    margin-top: 1.5rem;
-    text-align: center;
-  }
-
-  .user-info h2 {
-    font-size: 1.5rem;
-  }
-
-  .user-info ul {
-    justify-content: center;
-    max-width: none;
   }
   
   .user-form {
-    max-width: none;
-    width: 100%;
-    margin-bottom: 2rem;
+    max-width: 400px;
   }
 }
